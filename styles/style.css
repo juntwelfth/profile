@@ -3,21 +3,22 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 2200px;
+  height: 2000px;
 }
 
 .all {
   width: 100%;
   height: 100%;
   position: relative;
-  background-image: url('../images/background4.jpg') !important;
+  background-image: url('../images/background5.jpg') !important;
   background-size: cover;
   /* opacity: 60%; */
-  background-attachment: fixed;
-  font-family: 'Righteous', cursive;
-  color: rgba(65, 65, 65, 0.746);
-  font-weight: 400;
-  font-size: 25px;
+  background-attachment: scroll;
+  /* font-family: 'Hahmlet', serif; */
+  font-family: 'Raleway', sans-serif;
+  color: rgb(230, 219, 219);
+  font-weight: 500;
+  font-size: 26px;
 }
 
 .contents {
@@ -32,7 +33,6 @@ body {
   position: relative;
   margin: auto;
   display: inline-block;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .name_head {
@@ -41,8 +41,8 @@ body {
   color: white;
   font-size: 100px;
   text-align: center;
-  letter-spacing: 18px;
-  font-weight: 500;
+  letter-spacing: 30px;
+  font-weight: 600;
   padding-top: 100px;
   padding-bottom: 20px;
 }
@@ -51,10 +51,10 @@ body {
   width: 100%;
   height: 50px;
   color: white;
-  font-size: 50px;
+  font-size: 40px;
   text-align: center;
   letter-spacing: 9px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .original {
@@ -65,7 +65,8 @@ body {
 }
 
 .original_head {
-  background-color: rgba(235, 235, 235, 0.61);
+  /* background-color: rgba(235, 235, 235, 0.61); */
+  background-color: rgba(0, 0, 0, 0.363);
   width: 950px;
   height: 50px;
   text-align: left;
@@ -104,7 +105,8 @@ body {
 }
 
 .remix_head {
-  background-color: rgba(235, 235, 235, 0.61);
+  /* background-color: rgba(235, 235, 235, 0.61); */
+  background-color: rgba(0, 0, 0, 0.363);
   height: 50px;
   text-align: left;
   margin: auto;
@@ -133,7 +135,8 @@ body {
 }
 
 .cover_head {
-  background-color: rgba(235, 235, 235, 0.61);
+  /* background-color: rgba(235, 235, 235, 0.61); */
+  background-color: rgba(0, 0, 0, 0.363);
   height: 50px;
   text-align: left;
   margin: auto;
@@ -170,7 +173,8 @@ body {
 }
 
 .video_head {
-  background-color: rgba(235, 235, 235, 0.61);
+  /* background-color: rgba(235, 235, 235, 0.61); */
+  background-color: rgba(0, 0, 0, 0.363);
   height: 50px;
   text-align: left;
   margin: auto;
@@ -199,7 +203,8 @@ body {
 }
 
 .contact_head {
-  background-color: rgba(235, 235, 235, 0.61);
+  /* background-color: rgba(235, 235, 235, 0.61); */
+  background-color: rgba(0, 0, 0, 0.363);
   height: 50px;
   text-align: left;
   margin: auto;
