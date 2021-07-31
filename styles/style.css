@@ -671,3 +671,340 @@
     text-decoration: none;
   }
 }
+
+@media (max-width: 599px) {
+  /*모바일*/
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2050px;
+    background-image: url('../images/background5.jpg') !important;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .all {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(230, 219, 219);
+    font-weight: 500;
+    font-size: 1em;
+  }
+
+  .contents {
+    width: 90%;
+    max-width: 700px;
+    min-width: 320px;
+    height: 100%;
+    margin: auto;
+  }
+
+  .name {
+    width: 100%;
+    /* height: 200px; */
+    position: relative;
+    margin: auto;
+    display: inline-block;
+  }
+
+  .name_head {
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    letter-spacing: 15px;
+    font-weight: 600;
+    padding-top: 65px;
+    padding-bottom: 5px;
+  }
+
+  .name_main {
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: 400;
+  }
+
+  .original {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .original_head {
+    /* background-color: rgba(235, 235, 235, 0.61); */
+    background-color: rgba(54, 54, 54, 0.164);
+    width: 100%;
+    height: 35px;
+    text-align: left;
+  }
+
+  .original_head p {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  #original_soundcloud {
+    padding-top: 15px;
+    height: 350px;
+  }
+
+  .remixandcover {
+    margin-top: 40px;
+  }
+
+  .remix {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .remix_head {
+    /* background-color: rgba(235, 235, 235, 0.61); */
+    background-color: rgba(54, 54, 54, 0.164);
+    width: 100%;
+    height: 35px;
+    text-align: left;
+  }
+
+  .remix_head p {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  .hide_d {
+    display: none;
+  }
+
+  #remix_soundcloud_m {
+    padding-top: 15px;
+    height: 350px;
+  }
+
+  .cover {
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cover_head {
+    /* background-color: rgba(235, 235, 235, 0.61); */
+    background-color: rgba(54, 54, 54, 0.164);
+    width: 100%;
+    height: 35px;
+    text-align: left;
+  }
+
+  .cover_head p {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  #cover_soundcloud_m {
+    padding-top: 15px;
+    height: 350px;
+  }
+
+  .videoandcontact {
+    margin-top: 40px;
+  }
+
+  .video {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+  }
+
+  .video_main {
+    height: 265px;
+  }
+
+  .video_head {
+    /* background-color: rgba(235, 235, 235, 0.61); */
+    background-color: rgba(54, 54, 54, 0.164);
+    width: 100%;
+    height: 35px;
+    text-align: left;
+  }
+
+  .video_head p {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  #video_youtube {
+    padding-top: 15px;
+    width: 100%;
+    height: 250px;
+  }
+
+  .contact {
+    margin-top: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact_head {
+    /* background-color: rgba(235, 235, 235, 0.61); */
+    background-color: rgba(54, 54, 54, 0.164);
+    width: 100%;
+    height: 35px;
+    text-align: left;
+  }
+
+  .contact_head p {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+  }
+
+  #contact_soundcloud {
+    padding-top: 25px;
+  }
+
+  .contact_main {
+    margin-top: 15px;
+    width: 100%;
+    height: 43px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* display: inline-block; */
+    justify-content: space-evenly;
+  }
+
+  .contact_main_spotify {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+
+  #spotify {
+    width: 40px;
+  }
+
+  .contact_main_soundcloud {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+
+  #soundcloud {
+    width: 40px;
+  }
+
+  .contact_main_youtube {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+
+  #youtube {
+    width: 40px;
+  }
+
+  .contact_main_twitter {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+
+  #twitter {
+    width: 40px;
+  }
+
+  .contact_main_vimeo {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+
+  #vimeo {
+    width: 40px;
+  }
+
+  .contact_main_instagram {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+
+  #instagram {
+    width: 40px;
+  }
+
+  .contact_main_facebook {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+
+  #facebook {
+    width: 40px;
+  }
+
+  .contact_main_apple {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+  }
+
+  #apple {
+    width: 40px;
+  }
+
+  .contact_email {
+    text-align: right;
+    font-size: 1em;
+    margin-top: 5px;
+    margin-right: 15px;
+  }
+
+  .contact_email a:link {
+    color: blue;
+    text-decoration: none;
+  }
+  .contact_email a:visited {
+    color: blue;
+    text-decoration: none;
+  }
+}
